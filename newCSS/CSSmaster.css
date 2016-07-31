@@ -1,0 +1,110 @@
+﻿body {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 16px;
+    background-image:url("bgel.png");
+    padding: 3px;
+}
+
+#tipetweet, #keywordPDAM, #keywordSOSIAL, #keywordKEBERSIHAN, #keywordPERTAMANAN, #keywordKOMINFO { 
+    -webkit-border-radius: 12px; 
+    -moz-border-radius: 12px; 
+    border-radius: 10px; 
+    border: 1px solid #848484; 
+    outline:0; 
+    height:30px; 
+    width: 285px; 
+    padding: 9px;
+    font-size: medium;
+ } 
+
+#Button1, #Button2{
+    background-color: green;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#StartAnalysisButton {
+    background-color: green;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#TableOpsiAction {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.MainDISPTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#TupleDispositionTable {
+    font-family: verdana,arial,sans-serif;
+    font-size:20px;
+    color: black;
+    border-width: 1px;
+    border-color:#999999;
+    background: green;
+}
+
+#kolomNamaDinasDispositionTable, #kolomBanyakTweetDispositionTable, #kolomInfoDetailDispositionTable {
+    font-family: verdana,arial,sans-serif;
+    font-size:20px;
+    color: #333333;
+    border-width: 1px;
+    border-color:#999999;
+    background: lightgrey;
+    border-collapse: collapse;
+}
+
+#namaApps {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 72px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
